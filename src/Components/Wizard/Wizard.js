@@ -14,9 +14,9 @@ export default class Wizard extends Component {
   }
   render() {
     return (
-      <main>
-        <div>
-          Wizard
+      <main className="house_container">
+        <div className="sub_header">
+          <h1>Add New Listing</h1>
           <Link to="/">
             <button onClick={() => this.cancel()}>Cancel</button>
           </Link>

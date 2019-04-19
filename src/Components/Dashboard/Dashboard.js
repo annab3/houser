@@ -38,9 +38,9 @@ export default class Dashboard extends Component {
 
   render() {
     return (
-      <main>
-        <div>
-          Dashboard
+      <main className="house_container">
+        <div className="sub_header">
+          <h1>Dashboard</h1>
           <Link to="/wizard/step1">
             <button>Add New Property</button>
           </Link>
